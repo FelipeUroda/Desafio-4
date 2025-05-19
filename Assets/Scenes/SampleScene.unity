@@ -201,6 +201,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: b7c04eb1f5442804bb0e029f5c380117, type: 3}
       insertIndex: -1
       addedObject: {fileID: 879015238}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: b7c04eb1f5442804bb0e029f5c380117, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 879015242}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: b7c04eb1f5442804bb0e029f5c380117, type: 3}
 --- !u!1 &519420028
 GameObject:
@@ -423,6 +426,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 63ffcd6054d7b7c4b810cd426c3fe0b4, type: 3}
       insertIndex: -1
       addedObject: {fileID: 529560457}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 63ffcd6054d7b7c4b810cd426c3fe0b4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 529560460}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 63ffcd6054d7b7c4b810cd426c3fe0b4, type: 3}
 --- !u!1 &529560456 stripped
 GameObject:
@@ -485,6 +491,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 63ffcd6054d7b7c4b810cd426c3fe0b4, type: 3}
   m_PrefabInstance: {fileID: 529560455}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &529560460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529560456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c803723870c830544ad97c1d7c36cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensagem: "Voc\xEA interagiu com o objeto!"
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -969,6 +988,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5
+--- !u!114 &879015242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879015231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b0466f2f60d2904083a595bb0788dc3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &880747934 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: adb8757cbb2c314489448dcdcbf9361e, type: 3}
@@ -1045,6 +1076,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: fb70554fce4c75d4fa634cb2df738460, type: 3}
       insertIndex: -1
       addedObject: {fileID: 974325994}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: fb70554fce4c75d4fa634cb2df738460, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 974325997}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: fb70554fce4c75d4fa634cb2df738460, type: 3}
 --- !u!1 &974325993 stripped
 GameObject:
@@ -1107,6 +1141,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: fb70554fce4c75d4fa634cb2df738460, type: 3}
   m_PrefabInstance: {fileID: 974325992}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &974325997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974325993}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c803723870c830544ad97c1d7c36cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensagem: "Voc\xEA interagiu com o objeto!"
 --- !u!1 &987918791
 GameObject:
   m_ObjectHideFlags: 0
@@ -1507,6 +1554,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 0cee78998c66b524f8dbb60903552632, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1408543496}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 0cee78998c66b524f8dbb60903552632, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1408543499}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 0cee78998c66b524f8dbb60903552632, type: 3}
 --- !u!1 &1408543495 stripped
 GameObject:
@@ -1571,6 +1621,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 0cee78998c66b524f8dbb60903552632, type: 3}
   m_PrefabInstance: {fileID: 1408543494}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1408543499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1408543495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c803723870c830544ad97c1d7c36cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensagem: "Voc\xEA interagiu com o objeto!"
 --- !u!1001 &1428335374
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1642,6 +1705,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: df536b1b3d22dd445a764a0491d5f34b, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1428335376}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: df536b1b3d22dd445a764a0491d5f34b, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1428335379}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: df536b1b3d22dd445a764a0491d5f34b, type: 3}
 --- !u!1 &1428335375 stripped
 GameObject:
@@ -1708,6 +1774,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: df536b1b3d22dd445a764a0491d5f34b, type: 3}
   m_PrefabInstance: {fileID: 1428335374}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1428335379
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428335375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c803723870c830544ad97c1d7c36cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensagem: "Voc\xEA interagiu com o objeto!"
 --- !u!1001 &1433898791
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1779,6 +1858,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 55f4c39d9cd87274aadcf9ab4a0dc511, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1433898793}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 55f4c39d9cd87274aadcf9ab4a0dc511, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1433898796}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 55f4c39d9cd87274aadcf9ab4a0dc511, type: 3}
 --- !u!1 &1433898792 stripped
 GameObject:
@@ -1841,6 +1923,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 55f4c39d9cd87274aadcf9ab4a0dc511, type: 3}
   m_PrefabInstance: {fileID: 1433898791}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1433898796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433898792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c803723870c830544ad97c1d7c36cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensagem: "Voc\xEA interagiu com o objeto!"
 --- !u!1001 &1460955550
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2015,6 +2110,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 4ff8203cb55690c44ba764f851c0f7c7, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1596641698}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 4ff8203cb55690c44ba764f851c0f7c7, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1596641701}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 4ff8203cb55690c44ba764f851c0f7c7, type: 3}
 --- !u!1 &1596641697 stripped
 GameObject:
@@ -2078,6 +2176,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: 4ff8203cb55690c44ba764f851c0f7c7, type: 3}
   m_PrefabInstance: {fileID: 1596641696}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1596641701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1596641697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c803723870c830544ad97c1d7c36cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensagem: "Voc\xEA interagiu com o objeto!"
 --- !u!1001 &1647306355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2218,6 +2329,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: fb765b9cc3ce92e4da72fe8db5acbfef, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1699558386}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: fb765b9cc3ce92e4da72fe8db5acbfef, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1699558389}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: fb765b9cc3ce92e4da72fe8db5acbfef, type: 3}
 --- !u!1 &1699558385 stripped
 GameObject:
@@ -2280,6 +2394,19 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7878350319992209165, guid: fb765b9cc3ce92e4da72fe8db5acbfef, type: 3}
   m_PrefabInstance: {fileID: 1699558384}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1699558389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699558385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c803723870c830544ad97c1d7c36cf7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mensagem: "Voc\xEA interagiu com o objeto!"
 --- !u!1001 &1762966161
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -2,9 +2,13 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public float moveSpeed = 5f;
+    public float speed = 5f;
+    public float jumpForce = 5f;
+
     private Rigidbody2D rb;
-    private float moveInput;
+    private bool isGrounded = false;
+    private int jumpCount = 0;
+    public int maxJumps = 2;
 
     void Start()
     {
@@ -13,11 +17,24 @@ public class PlayerMovement : MonoBehaviour
 
     void Update()
     {
-        moveInput = Input.GetAxisRaw("Horizontal"); // -1 (esquerda), 0, 1 (direita)
+        // Movimento lateral
+        float moveInput = Input.GetAxisRaw("Horizontal");
+        rb.linearVelocity = new Vector2(moveInput * speed, rb.linearVelocity.y);
+
+        // Pulo e pulo duplo
+        if (Input.GetKeyDown(KeyCode.Space) && jumpCount < maxJumps)
+        {
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            jumpCount++;
+        }
     }
 
-    void FixedUpdate()
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        rb.linearVelocity = new Vector2(moveInput * moveSpeed, rb.linearVelocity.y);
+        if (collision.gameObject.CompareTag("Chao"))
+        {
+            isGrounded = true;
+            jumpCount = 0; // reseta o número de pulos
+        }
     }
 }

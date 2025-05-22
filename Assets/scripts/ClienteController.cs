@@ -34,7 +34,7 @@ public class Cliente : MonoBehaviour
         if (!chegou && destino != null)
         {
             Debug.Log($"Cliente {gameObject.name} indo para {destino.name} | Posição atual: {transform.position} | Destino: {destino.position}");
-            transform.position = Vector3.MoveTowards(transform.position, destino.position, velocidade * Time.deltaTime);
+            transform.position = Vector2.MoveTowards(transform.position, destino.position, velocidade * Time.deltaTime);
 
             if (Vector2.Distance(transform.position, destino.position) < 0.1f)
             {
